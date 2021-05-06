@@ -1,0 +1,15 @@
+{
+  "name": "challenge-take-blip",
+  "version": "1.0.0",
+  "description": "Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chatbot",
+    "api"
+  ],
+  "author": "Francisco Chaves",
+  "license": "MIT"
+}
