@@ -14,6 +14,13 @@ module.exports = async (req, res) => {
       data
         .filter((item) => item.language === language)
         .sort(compareDate)
+        .map((item) => {
+          return {
+            name: item.full_name,
+            description: item.description,
+            avatar: item.owner.avatar_url,
+          };
+        })
         .slice(0, limit)
     );
   } catch (error) {
